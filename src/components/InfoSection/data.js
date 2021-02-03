@@ -1,0 +1,103 @@
+export const homeObjOne = {
+    id : 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDest: true,
+    topLine: 'Premium Bank',
+    headLine: 'Unlimited Transactions with zero zeros',
+    description: 'Get access to not accesable places with best atractions',
+    buttonLabel: 'Get Started',
+    imgStart: true,
+    img: require('../../images/svg-1.svg'),
+    alt: 'car',
+    dark: true,
+    primary: true,
+    darkText: false,
+
+};
+
+export const homeObjTwo = {
+    id : 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDest: false,
+    topLine: 'Juin our Team',
+    headLine: 'Unlimited Transactions with zero zeros',
+    description: 'Get access to not accesable places with best atractions',
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img: require('../../images/svg-2.svg'),
+    alt: 'car',
+    dark: false,
+    primary: false,
+    darkText: false,
+
+};
+export const homeObjThree = {
+    id : 'servicess',
+    lightBg: false,
+    lightText: true,
+    lightTextDest: true,
+    topLine: 'Premium Bank',
+    headLine: 'Unlimited Transactions with zero zeros',
+    description: 'Get access to not accesable places with best atractions',
+    buttonLabel: 'Get Started',
+    imgStart: true,
+    img : require('../../images/svg-3.svg'),
+    alt: 'car',
+    dark: true,
+    primary: true,
+    darkText: false,
+
+};
+export const homeObjFour = {
+    id : 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDest: false,
+    topLine: 'Juin our Team',
+    headLine: 'Unlimited Transactions with zero zeros',
+    description: 'Get access to not accesable places with best atractions',
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img : require('../../images/svg-4.svg'),
+    alt: 'car',
+    dark: false,
+    primary: false,
+    darkText: false,
+
+};
+export const homeObjFive = {
+    id : 'servicess',
+    lightBg: false,
+    lightText: true,
+    lightTextDest: true,
+    topLine: 'Premium Bank',
+    headLine: 'Unlimited Transactions with zero zeros',
+    description: 'Get access to not accesable places with best atractions',
+    buttonLabel: 'Get Started',
+    imgStart: true,
+    img : require('../../images/svg-5.svg'),
+    alt: 'car',
+    dark: true,
+    primary: true,
+    darkText: false,
+
+};
+export const homeObjSix = {
+    id : 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDest: false,
+    topLine: 'Juin our Team',
+    headLine: 'Unlimited Transactions with zero zeros',
+    description: 'Get access to not accesable places with best atractions',
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img : require('../../images/svg-6.svg'),
+    alt: 'car',
+    dark: false,
+    primary: false,
+    darkText: false,
+
+};
