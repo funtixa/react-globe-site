@@ -1,3 +1,10 @@
+import logo1 from '../../images/svg-1.svg'
+import logo2 from '../../images/svg-2.svg'
+import logo3 from '../../images/svg-3.svg'
+import logo4 from '../../images/svg-4.svg'
+import logo5 from '../../images/svg-5.svg'
+import logo6 from '../../images/svg-6.svg'
+
 export const homeObjOne = {
     id : 'about',
     lightBg: false,
@@ -8,7 +15,7 @@ export const homeObjOne = {
     description: 'Get access to not accesable places with best atractions',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img: require('../../images/svg-1.svg'),
+    img: logo1,
     alt: 'car',
     dark: true,
     primary: true,
@@ -26,11 +33,11 @@ export const homeObjTwo = {
     description: 'Get access to not accesable places with best atractions',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: require('../../images/svg-2.svg'),
+    img: logo2,
     alt: 'car',
     dark: false,
     primary: false,
-    darkText: false,
+    darkText: true,
 
 };
 export const homeObjThree = {
@@ -43,7 +50,7 @@ export const homeObjThree = {
     description: 'Get access to not accesable places with best atractions',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img : require('../../images/svg-3.svg'),
+    img : logo3,
     alt: 'car',
     dark: true,
     primary: true,
@@ -60,11 +67,11 @@ export const homeObjFour = {
     description: 'Get access to not accesable places with best atractions',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img : require('../../images/svg-4.svg'),
+    img : logo4,
     alt: 'car',
     dark: false,
     primary: false,
-    darkText: false,
+    darkText: true,
 
 };
 export const homeObjFive = {
@@ -77,7 +84,7 @@ export const homeObjFive = {
     description: 'Get access to not accesable places with best atractions',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img : require('../../images/svg-5.svg'),
+    img : logo5,
     alt: 'car',
     dark: true,
     primary: true,
@@ -94,10 +101,10 @@ export const homeObjSix = {
     description: 'Get access to not accesable places with best atractions',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img : require('../../images/svg-6.svg'),
+    img : logo6,
     alt: 'car',
     dark: false,
     primary: false,
-    darkText: false,
+    darkText: true,
 
 };

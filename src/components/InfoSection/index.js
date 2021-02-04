@@ -40,7 +40,7 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
-                <Subtitle sarkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button to="home"
                   smooth={true}
@@ -57,7 +57,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src='../../images/svg-2.svg' alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

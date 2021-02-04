@@ -1,6 +1,8 @@
 import React, { useState }from "react";
 // import { BrowserRouter as Router } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
+import Services from "../components/services";
+
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
@@ -21,6 +23,7 @@ const Home = () => {
       <InfoSection {...homeObjOne}/>
       <InfoSection {...homeObjTwo}/>
       <InfoSection {...homeObjThree}/>
+      <Services />
       <InfoSection {...homeObjFour}/>
       <InfoSection {...homeObjFive}/>
       <InfoSection {...homeObjSix}/>
