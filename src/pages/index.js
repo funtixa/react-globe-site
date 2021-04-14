@@ -1,4 +1,4 @@
-import React, { useState }from "react";
+import React, { useState } from "react";
 // import { BrowserRouter as Router } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import Services from "../components/services";
@@ -6,7 +6,8 @@ import Services from "../components/services";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import { homeObjOne , homeObjTwo, homeObjThree,homeObjFour, homeObjFive, homeObjSix} from "../components/InfoSection/data";
+import { homeObjOne , homeObjTwo, homeObjThree, homeObjFour} from "../components/InfoSection/data";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -21,12 +22,11 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne}/>
+      <Services />
       <InfoSection {...homeObjTwo}/>
       <InfoSection {...homeObjThree}/>
-      <Services />
       <InfoSection {...homeObjFour}/>
-      <InfoSection {...homeObjFive}/>
-      <InfoSection {...homeObjSix}/>
+      <Footer />
 
     </>
   );
